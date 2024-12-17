@@ -1,0 +1,32 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 20px 30px;
+}
+.sea{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    width: 100%;
+}
+.sea::placeholder{
+    color: black;
+    font-size: 30px;
+}
+.icon{
+    display: flex;
+    color: black;
+    font-size: 40px;
+}
